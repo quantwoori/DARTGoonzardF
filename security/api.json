@@ -1,0 +1,13 @@
+{
+  "apikey" :
+  {
+    "dart": "21d219da82cfb8a3d65a05d6cf5adc8daf97e3eb",
+    "dart2" : "bc03873d6114837ce4967db56f61d4b8e210f856",
+    "dart3": "0917ead51a957fe534045eae15d876c4e26de262"
+  },
+  "sql" :
+  {
+    "id": "wsol1",
+    "pw": "wsol1"
+  }
+}
