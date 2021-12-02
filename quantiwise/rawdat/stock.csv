@@ -1,0 +1,541 @@
+계정코드,재무업종,코드타입,재무제표종류,한글명,영문명,단위
+100100,0,S,,종가,Close,원/주
+100110,0,S,,시가,Open,원/주
+100120,0,S,,고가,High,원/주
+100130,0,S,,저가,Low,원/주
+100200,0,S,,종가(우선주),Close(Pref.),원/주
+100210,0,S,,시가(우선주),Open(Pref.),원/주
+100220,0,S,,고가(우선주),High(Pref.),원/주
+100230,0,S,,저가(우선주),Low(Pref.),원/주
+100300,0,S,,수정주가,Adj. Price,원/주
+100310,0,S,,수정시가,Adj. Open,원/주
+100320,0,S,,수정고가,Adj. High,원/주
+100330,0,S,,수정저가,Adj. Low,원/주
+100400,0,S,,수정주가(우선주),Adj. Price(Pref.),원/주
+100410,0,S,,수정시가(우선주),Adj. Open(Pref.),원/주
+100420,0,S,,수정고가(우선주),Adj. High(Pref.),원/주
+100430,0,S,,수정저가(우선주),Adj. Low(Pref.),원/주
+100500,0,S,,수정주가수익률,Adj. Price Rtn.,비율
+100510,0,S,,1주전대비수익률,1wks Adj. Price Rtn.,비율
+100520,0,S,,1주전대비수익률(우선주),1wks Adj. Price Rtn.(Pref.),비율
+100530,0,S,,연초대비수익률,YTD Adj. Price Rtn.,비율
+100540,0,S,,연초대비수익률(우선주),YTD Adj. Price Rtn.(Pref.),비율
+100550,0,S,,1개월전대비수익률,1M Adj. Price Rtn.,비율
+100560,0,S,,1개월전대비수익률(우선주),1M Adj. Price Rtn.(Pref.),비율
+100570,0,S,,3개월전대비수익률,3M Adj. Price Rtn.,비율
+100580,0,S,,3개월전대비수익률(우선주),3M Adj. Price Rtn.(Pref.),비율
+100590,0,S,,6개월전대비수익률,6M Adj. Price Rtn.,비율
+100600,0,S,,수정주가수익률(우선주),Adj. Price Rtn.(Pref.),비율
+100610,0,S,,6개월전대비수익률(우선주),6M Adj. Price Rtn.(Pref.),비율
+100620,0,S,,12개월전대비수익률,12M Adj. Price Rtn.,비율
+100630,0,S,,12개월전대비수익률(우선주),12M Adj. Price Rtn.(Pref.),비율
+100700,0,S,,액면가,Face Value,원/주
+100800,0,S,,액면가(우선주),Face Value(Pref.),원/주
+100820,0,S,,기준가,Base Value,원/주
+100840,0,S,,기준가(우선주),Base Value(Pref.),원/주
+100900,0,S,,거래량,Volume,주
+101000,0,S,,거래량(우선주),Volume(Pref.),주
+101100,0,S,,거래량(전체),Volume(All),주
+101200,0,S,,거래대금,Turnover,원
+101300,0,S,,거래대금(우선주),Turnover(Pref.),원
+101400,0,S,,거래대금(전체),Turnover(All),원
+101500,0,S,,상장주식수,Listed Shares,주
+101510,0,S,,지수산정주식수,Listed Shares To Be,주
+101550,0,S,,자기주식수,Treasury Stock,주
+101600,0,S,,상장주식수(우선주),Listed Shares(Pref.),주
+101610,0,S,,지수산정주식수(우선주),Listed Shares To Be(Pref.),주
+101650,0,S,,자기주식수(우선주),Treasury Stock(Pref.),주
+101700,0,S,,상장주식수(전체),Listed Shares(All),주
+101710,0,S,,지수산정주식수(전체),Listed Shares To Be(All),주
+101750,0,S,,자기주식수(전체),Treasury Stock(All),주
+101760,0,S,,액면조정자기주식수,No. of Treasury Stock(FY End)-Split & Rev. Split,주
+101770,0,S,,액면조정자기주식수(우선주),No. of Treasury Stock(FY End)-Split & Rev. Split(Pref.),주
+101780,0,S,,액면조정자기주식수(전체),No. of Treasury Stock(FY End)-Split & Rev. Split(All),주
+101800,0,S,,외국인주식수,For. Shares,주
+101850,0,S,,외국인지분율,For. Shares Ratio,비율
+101900,0,S,,외국인주식수(우선주),For. Shares(Pref.),주
+101950,0,S,,외국인지분율(우선주),For. Shares Ratio(Pref.),비율
+102000,0,S,,외국인주식수(전체),For. Shares(All),주
+102050,0,S,,외국인지분율(전체),For. Shares Ratio(All),비율
+102052,0,S,,외국인한도수량,For.Upper Limit Shares,%
+102054,0,S,,외국인한도비율,For.Upper Limit Ratio,비율
+102055,0,S,,외국인시가총액,Mkt. Cap.(For.),원
+102056,0,S,,외국인시가총액(우선주),"Mkt. Cap.(For., Pref.)",원
+102057,0,S,,외국인시가총액(전체),"Mkt. Cap.(For., All)",원
+102060,0,S,,유통주식비율,Free Float,%
+102065,0,S,,KRX유통주식비율,KRX Free Float,비율
+102100,0,S,,시가총액,Mkt. Cap.,원
+102200,0,S,,시가총액(우선주),Mkt. Cap.(Pref.),원
+102300,0,S,,시가총액(전체),Mkt. Cap.(All),원
+102301,0,S,,지수산정시가총액,Mkt. Cap. for Index,원
+102302,0,S,,지수산정시가총액(구형우선주),Mkt. Cap. for Index(Pref.),원
+102303,0,S,,변동성,Volatility,
+102304,0,S,,변동성(우선주),Volatility(Pref.),
+102310,0,S,,공매도수량,Short Selling Volume,주
+102315,0,S,,공매도수량비중,Short Selling Volume Weight,%
+102320,0,S,,공매도수량(우선주),Short Selling Volume(Pref.),주
+102325,0,S,,공매도수량비중(우선주),Short Selling Volume Weight(Pref.),%
+102330,0,S,,공매도수량(전체),Short Selling Volume(All),주
+102335,0,S,,공매도수량비중(전체),Short Selling Volume Weight(All),%
+102340,0,S,,공매도금액,Short Selling Turnover,천원
+102345,0,S,,공매도금액비중,Short Selling Turnover Weight,%
+102350,0,S,,공매도금액(우선주),Short Selling Turnover(Pref.),천원
+102355,0,S,,공매도금액비중(우선주),Short Selling Turnover Weight(Pref.),%
+102360,0,S,,공매도금액(전체),Short Selling Turnover(All),천원
+102365,0,S,,공매도금액비중(전체),Short Selling Turnover Weight(All),%
+102400,0,S,,일평균거래량,Avg. Volume Per Day,주
+102500,0,S,,일평균거래량(우선주),Avg. Volume Per Day(Pref.),주
+102600,0,S,,일평균거래량(전체),Avg. Volume Per Day(All),주
+102700,0,S,,일평균거래대금,Avg. Turnover Per Day,원
+102800,0,S,,일평균거래대금(우선주),Avg. Turnover Per Day(Pref.),원
+102900,0,S,,일평균거래대금(전체),Avg. Turnover Per Day(All),원
+103000,0,S,,일평균시가총액,Avg. Mkt. Cap. Per Day,원
+103100,0,S,,일평균시가총액(우선주),Avg. Mkt. Cap. Per Day(Pref.),원
+103200,0,S,,일평균시가총액(전체),Avg. Mkt. Cap. Per Day(All),원
+103210,0,S,,일평균외국인시가총액,Avg. Mkt. Cap. Per Day(For.),원
+103220,0,S,,일평균외국인시가총액(우선주),"Avg. Mkt. Cap. Per Day(For., Pref.)",원
+103230,0,S,,일평균외국인시가총액(전체),"Avg. Mkt. Cap. Per Day(For., All)",원
+103300,0,S,,52주최고가,52wks High Close,원/주
+103400,0,S,,52주최고가(우선주),52wks High Close(Pref.),원/주
+103500,0,S,,52주최저가,52wks Low Close,원/주
+103600,0,S,,52주최저가(우선주),52wks Low Close(Pref.),원/주
+103700,0,S,,52주평균종가,52wks Avg. Close,원/주
+103800,0,S,,52주평균종가(우선주),52wks Avg. Close(Pref.),원/주
+103900,0,S,,52주최고수정주가,52wks High Adj. Price,원/주
+103905,0,S,,52주최고수정종가,52wks High Adj. Price(based on closing),원/주
+104000,0,S,,52주최고수정주가(우선주),52wks High Adj. Price(Pref.),원/주
+104005,0,S,,52주최고수정종가(우선주),"52wks High Adj. Price(Pref., based on closing)",원/주
+104100,0,S,,52주최저수정주가,52wks Low Adj. Price,원/주
+104105,0,S,,52주최저수정종가,52wks Low Adj. Price(based on closing),원/주
+104200,0,S,,52주최저수정주가(우선주),52wks Low Adj. Price(Pref.),원/주
+104205,0,S,,52주최저수정종가(우선주),"52wks Low Adj. Price(Pref., based on closing)",원/주
+104300,0,S,,52주평균수정주가,52wks Avg. Adj. Price,원/주
+104400,0,S,,52주평균수정주가(우선주),52wks Avg. Adj. Price(Pref.),원/주
+104500,0,S,,52주최고액면조정수정주가,52wks High Adj. Price-Stock Split,원/주
+104600,0,S,,52주최고액면조정수정주가(우선주),52wks High Adj. Price-Stock Split(Pref.),원/주
+104700,0,S,,52주최저액면조정수정주가,52wks Low Adj. Price-Stock Split,원/주
+104800,0,S,,52주최저액면조정수정주가(우선주),52wks Low Adj. Price-Stock Split(Pref.),원/주
+104900,0,S,,52주평균액면조정수정주가,52wks Avg. Adj. Price-Stock Split,원/주
+105000,0,S,,52주평균액면조정수정주가(우선주),52wks Avg. Adj. Price-Stock Split(Pref.),원/주
+105300,0,S,,5일평균수정주가,5days Avg. Adj. Price,원/주
+105400,0,S,,5일평균수정주가(우선주),5days Avg. Adj. Price(Pref.),원/주
+105500,0,S,,5일평균거래량,5days Avg. Volume,주
+105600,0,S,,5일평균거래량(우선주),5days Avg. Volume(Pref.),주
+105700,0,S,,5일평균거래량(전체),5days Avg. Volume(All),주
+105710,0,S,,5일평균거래대금,5days Avg. Turnover,원
+105720,0,S,,5일평균거래대금(우선주),5days Avg. Turnover(Pref.),원
+105730,0,S,,5일평균거래대금(전체),5days Avg. Turnover(All),원
+106000,0,S,,20일평균수정주가,20days Avg. Adj. Price,원/주
+106100,0,S,,20일평균수정주가(우선주),20days Avg. Adj. Price(Pref.),원/주
+106200,0,S,,20일평균거래량,20days Avg. Volume,주
+106300,0,S,,20일평균거래량(우선주),20days Avg. Volume(Pref.),주
+106400,0,S,,20일평균거래량(전체),20days Avg. Volume(All),주
+106410,0,S,,20일평균거래대금,20days Avg. Turnover,원
+106420,0,S,,20일평균거래대금(우선주),20days Avg. Turnover(Pref.),원
+106430,0,S,,20일평균거래대금(전체),20days Avg. Turnover(All),원
+106700,0,S,,60일평균수정주가,60days Avg. Adj. Price,원/주
+106800,0,S,,60일평균수정주가(우선주),60days Avg. Adj. Price(Pref.),원/주
+106900,0,S,,60일평균거래량,60days Avg. Volume,주
+107000,0,S,,60일평균거래량(우선주),60days Avg. Volume(Pref.),주
+107100,0,S,,60일평균거래량(전체),60days Avg. Volume(All),주
+107110,0,S,,60일평균거래대금,60days Avg. Turnover,원
+107120,0,S,,60일평균거래대금(우선주),60days Avg. Turnover(Pref.),원
+107130,0,S,,60일평균거래대금(전체),60days Avg. Turnover(All),원
+107400,0,S,,120일평균수정주가,120days Avg. Adj. Price,원/주
+107500,0,S,,120일평균수정주가(우선주),120days Avg. Adj. Price(Pref.),원/주
+107600,0,S,,120일평균거래량,120days Avg. Volume,주
+107700,0,S,,120일평균거래량(우선주),120days Avg. Volume(Pref.),주
+107800,0,S,,120일평균거래량(전체),120days Avg. Volume(All),주
+107810,0,S,,120일평균거래대금,120days Avg. Turnover,원
+107820,0,S,,120일평균거래대금(우선주),120days Avg. Turnover(Pref.),원
+107830,0,S,,120일평균거래대금(전체),120days Avg. Turnover(All),원
+107900,0,S,,60일베타,60days Beta,
+107910,0,S,,60일베타(우선주),60days Beta(Pref.),
+108000,0,S,,60일알파,60days Alpha,
+108010,0,S,,60일알파(우선주),60days Alpha(Pref.),
+108100,0,S,,60일로그베타,60days Log Beta,
+108200,0,S,,60일로그알파,60days Log Alpha,
+108300,0,S,,60일로그베타(우선주),60days Log Beta(Pref.),
+108400,0,S,,60일로그알파(우선주),60days Log Alpha(Pref.),
+111000,0,S,,5일최고수정주가,5days High Adj. Price,원/주
+111100,0,S,,5일최고수정주가(우선주),5days High Adj. Price(Pref.),원/주
+111110,0,S,,5일최저수정주가,5days Low Adj. Price,원/주
+111120,0,S,,5일최저수정주가(우선주),5days Low Adj. Price(Pref.),원/주
+111150,0,S,,20일최고수정주가,20days High Adj. Price,원/주
+111160,0,S,,20일최고수정주가(우선주),20days High Adj. Price(Pref.),원/주
+111170,0,S,,20일최저수정주가,20days Low Adj. Price,원/주
+111180,0,S,,20일최저수정주가(우선주),20days Low Adj. Price(Pref.),원/주
+111190,0,S,,60일최고수정주가,60days High Adj. Price,원/주
+111200,0,S,,60일최고수정주가(우선주),60days High Adj. Price(Pref.),원/주
+111210,0,S,,60일최저수정주가,60days Low Adj. Price,원/주
+111220,0,S,,60일최저수정주가(우선주),60days Low Adj. Price(Pref.),원/주
+111230,0,S,,120일최고수정주가,120days High Adj. Price,원/주
+111240,0,S,,120일최고수정주가(우선주),120days High Adj. Price(Pref.),원/주
+111250,0,S,,120일최저수정주가,120days Low Adj. Price,원/주
+111260,0,S,,120일최저수정주가(우선주),120days Low Adj. Price(Pref.),원/주
+120100,0,S,,락구분,Rights Off Status,
+120200,0,S,,거래정지구분,Trading Suspension Status,
+120300,0,S,,관리감리구분,Administration/Surveillance Status,
+121000,0,S,,52주평균거래량,52wks Avg. Volume,주
+121100,0,S,,52주평균거래량(우선주),52wks Avg. Volume(Pref.),주
+121110,0,S,,52주평균거래량(전체),52wks Avg. Volume(All),주
+121120,0,S,,52주누계거래량,52wks Sum Volume,주
+121130,0,S,,52주누계거래량(우선주),52wks Sum Volume(Pref.),주
+121140,0,S,,52주누계거래량(전체),52wks Sum Volume(All),주
+121150,0,S,,52주평균거래대금,52wks Avg. Turnover,원
+121160,0,S,,52주평균거래대금(우선주),52wks Avg. Turnover(Pref.),원
+121170,0,S,,52주평균거래대금(전체),52wks Avg. Turnover(All),원
+121180,0,S,,52주누계거래대금,52wks Sum Turnover,원
+121190,0,S,,52주누계거래대금(우선주),52wks Sum Turnover(Pref.),원
+121200,0,S,,52주누계거래대금(전체),52wks Sum Turnover(All),원
+121210,0,S,,5일누계거래량,5days Sum Volume,주
+121220,0,S,,5일누계거래량(우선주),5days Sum Volume(Pref.),주
+121230,0,S,,5일누계거래량(전체),5days Sum Volume(All),주
+121240,0,S,,5일누계거래대금,5days Sum Turnover,원
+121250,0,S,,5일누계거래대금(우선주),5days Sum Turnover(Pref.),원
+121260,0,S,,5일누계거래대금(전체),5days Sum Turnover(All),원
+121270,0,S,,20일누계거래량,20days Sum Volume,주
+121280,0,S,,20일누계거래량(우선주),20days Sum Volume(Pref.),주
+121290,0,S,,20일누계거래량(전체),20days Sum Volume(All),주
+121300,0,S,,20일누계거래대금,20days Sum Turnover,원
+121310,0,S,,20일누계거래대금(우선주),20days Sum Turnover(Pref.),원
+121320,0,S,,20일누계거래대금(전체),20days Sum Turnover(All),원
+121330,0,S,,60일누계거래량,60days Sum Volume,주
+121340,0,S,,60일누계거래량(우선주),60days Sum Volume(Pref.),주
+121350,0,S,,60일누계거래량(전체),60days Sum Volume(All),주
+121360,0,S,,60일누계거래대금,60days Sum Turnover,원
+121370,0,S,,60일누계거래대금(우선주),60days Sum Turnover(Pref.),원
+121380,0,S,,60일누계거래대금(전체),60days Sum Turnover(All),원
+121390,0,S,,120일누계거래량,120days Sum Volume,주
+121400,0,S,,120일누계거래량(우선주),120days Sum Volume(Pref.),주
+121410,0,S,,120일누계거래량(전체),120days Sum Volume(All),주
+121420,0,S,,120일누계거래대금,120days Sum Turnover,원
+121430,0,S,,120일누계거래대금(우선주),120days Sum Turnover(Pref.),원
+121440,0,S,,120일누계거래대금(전체),120days Sum Turnover(All),원
+131000,0,S,,52주평균시가총액,52wks Avg. Mkt. Cap.,원
+131100,0,S,,52주평균시가총액(우선주),52wks Avg. Mkt. Cap.(Pref.),원
+131110,0,S,,52주평균시가총액(전체),52wks Avg. Mkt. Cap.(All),원
+131120,0,S,,52주평균외국인시가총액,52wks Avg. Mkt. Cap.(For.),원
+131130,0,S,,52주평균외국인시가총액(우선주),"52wks Avg. Mkt. Cap.(For., Pref.)",원
+131140,0,S,,52주평균외국인시가총액(전체),"52wks Avg. Mkt. Cap.(For., All)",원
+131150,0,S,,5일평균시가총액,5days Avg. Mkt. Cap.,원
+131160,0,S,,5일평균시가총액(우선주),5days Avg. Mkt. Cap.(Pref.),원
+131170,0,S,,5일평균시가총액(전체),5days Avg. Mkt. Cap.(All),원
+131180,0,S,,5일평균외국인시가총액,5days Avg. Mkt. Cap.(For.),원
+131190,0,S,,5일평균외국인시가총액(우선주),"5days Avg. Mkt. Cap.(For., Pref.)",원
+131200,0,S,,5일평균외국인시가총액(전체),"5days Avg. Mkt. Cap.(For., All)",원
+131210,0,S,,20일평균시가총액,20days Avg. Mkt. Cap.,원
+131220,0,S,,20일평균시가총액(우선주),20days Avg. Mkt. Cap.(Pref.),원
+131230,0,S,,20일평균시가총액(전체),20days Avg. Mkt. Cap.(All),원
+131240,0,S,,20일평균외국인시가총액,20days Avg. Mkt. Cap.(For.),원
+131250,0,S,,20일평균외국인시가총액(우선주),"20days Avg. Mkt. Cap.(For., Pref.)",원
+131260,0,S,,20일평균외국인시가총액(전체),"20days Avg. Mkt. Cap.(For., All)",원
+131270,0,S,,60일평균시가총액,60days Avg. Mkt. Cap.,원
+131280,0,S,,60일평균시가총액(우선주),60days Avg. Mkt. Cap.(Pref.),원
+131290,0,S,,60일평균시가총액(전체),60days Avg. Mkt. Cap.(All),원
+131300,0,S,,60일평균외국인시가총액,60days Avg. Mkt. Cap.(For.),원
+131310,0,S,,60일평균외국인시가총액(우선주),"60days Avg. Mkt. Cap.(For., Pref.)",원
+131320,0,S,,60일평균외국인시가총액(전체),"60days Avg. Mkt. Cap.(For., All)",원
+131330,0,S,,120일평균시가총액,120days Avg. Mkt. Cap.,원
+131340,0,S,,120일평균시가총액(우선주),120days Avg. Mkt. Cap.(Pref.),원
+131350,0,S,,120일평균시가총액(전체),120days Avg. Mkt. Cap.(All),원
+131360,0,S,,120일평균외국인시가총액,120days Avg. Mkt. Cap.(For.),원
+131370,0,S,,120일평균외국인시가총액(우선주),"120days Avg. Mkt. Cap.(For., Pref.)",원
+131380,0,S,,120일평균외국인시가총액(전체),"120days Avg. Mkt. Cap.(For., All)",원
+200100,0,S,,주간최고가,Weekly High Close,원/주
+200110,0,S,,주간시가,Weekly Open Price,원/주
+200120,0,S,,주간시가(우선주),Weekly Open Price(Pref.),원/주
+200200,0,S,,주간최고가(우선주),Weekly High Close(Pref.),원/주
+200300,0,S,,주간최저가,Weekly Low Close,원/주
+200400,0,S,,주간최저가(우선주),Weekly Low Close(Pref.),원/주
+200700,0,S,,주간최고수정주가,Weekly High Adj. Price,원/주
+200705,0,S,,주간최고수정종가,Weekly High Adj. Price(based on closing),원/주
+200710,0,S,,주간수정시가,Weekly Open Adj. Price,원/주
+200720,0,S,,주간수정시가(우선주),Weekly Open Adj. Price(Pref.),원/주
+200800,0,S,,주간최고수정주가(우선주),Weekly High Adj. Price(Pref.),원/주
+200805,0,S,,주간최고수정종가(우선주),"Weekly High Adj. Price(Pref., based on closing)",원/주
+200900,0,S,,주간최저수정주가,Weekly Low Adj. Price,원/주
+200905,0,S,,주간최저수정종가,Weekly Low Adj. Price(based on closing),원/주
+201000,0,S,,주간최저수정주가(우선주),Weekly Low Adj. Price(Pref.),원/주
+201005,0,S,,주간최저수정종가(우선주),"Weekly Low Adj. Price(Pref., based on closing)",원/주
+201100,0,S,,주간평균수정주가,Weekly Avg. Adj. Price,원/주
+201200,0,S,,주간평균수정주가(우선주),Weekly Avg. Adj. Price(Pref.),원/주
+201300,0,S,,주간평균거래량,Weekly Avg. Volume,주
+201400,0,S,,주간평균거래량(우선주),Weekly Avg. Volume(Pref.),주
+201500,0,S,,주간평균거래량(전체),Weekly Avg. Volume(All),주
+201510,0,S,,주간누계거래량,Weekly Sum Volume,주
+201520,0,S,,주간누계거래량(우선주),Weekly Sum Volume(Pref.),주
+201530,0,S,,주간누계거래량(전체),Weekly Sum Volume(All),주
+201600,0,S,,주간평균거래대금,Weekly Avg. Turnover,원
+201700,0,S,,주간평균거래대금(우선주),Weekly Avg. Turnover(Pref.),원
+201800,0,S,,주간평균거래대금(전체),Weekly Avg. Turnover(All),원
+201810,0,S,,주간누계거래대금,Weekly Sum Turnover,원
+201820,0,S,,주간누계거래대금(우선주),Weekly Sum Turnover(Pref.),원
+201830,0,S,,주간누계거래대금(전체),Weekly Sum Turnover(All),원
+201900,0,S,,52주베타,52wks Beta,
+201910,0,S,,52주베타(우선주),52wks Beta(Pref.),
+201920,0,S,,52주Bull베타,52wks Bull Beta,
+201930,0,S,,52주Bear베타,52wks Bear Beta,
+201940,0,S,,52주Bull베타(우선주),52wks Bull Beta(Pref.),
+201950,0,S,,52주Bear베타(우선주),52wks Bear Beta(Pref.),
+202000,0,S,,52주알파,52wks Alpha,
+202010,0,S,,52주알파(우선주),52wks Alpha(Pref.),
+202100,0,S,,52주로그베타,52wks Log Beta,
+202110,0,S,,52주Bull로그베타,52wks Bull Log Beta,
+202120,0,S,,52주Bear로그베타,52wks Bear Log Beta,
+202200,0,S,,52주로그알파,52wks Log Alpha,
+202300,0,S,,52주로그베타(우선주),52wks Log Beta(Pref.),
+202310,0,S,,52주Bull로그베타(우선주),52wks Bull Log Beta(Pref.),
+202320,0,S,,52주Bear로그베타(우선주),52wks Bear Log Beta(Pref.),
+202400,0,S,,52주로그알파(우선주),52wks Log Alpha(Pref.),
+202500,0,S,,104주로그베타,104wks Log Beta,
+202510,0,S,,104주Bull로그베타,104wks Bull Log Beta,
+202520,0,S,,104주Bear로그베타,104wks Bear Log Beta,
+202530,0,S,,104주로그베타(우선주),104wks Log Beta,
+202540,0,S,,104주Bull로그베타(우선주),104wks Bull Log Beta(Pref.),
+202550,0,S,,104주Bear로그베타(우선주),104wks Bear Log Beta(Pref.),
+202600,0,S,,104주베타,104wks Beta,
+202610,0,S,,104주Bull베타,104wks Bull Beta,
+202620,0,S,,104주Bear베타,104wks Bear Beta,
+202630,0,S,,104주베타(우선주),104wks Beta(Pref.),
+202640,0,S,,104주Bull베타(우선주),104wks Bull Beta(Pref.),
+202650,0,S,,104주Bear베타(우선주),104wks Bear Beta(Pref.),
+202700,0,S,,104주알파,104wks Alpha,
+202710,0,S,,104주로그알파,104wks Log Alpha,
+202720,0,S,,104주알파(우선주),104wks Alpha(Pref.),
+202730,0,S,,104주로그알파(우선주),104wks Log Alpha(Pref.),
+202800,0,S,,156주로그베타,156wks Log Beta,
+202810,0,S,,156주Bull로그베타,156wks Bull Log Beta,
+202820,0,S,,156주Bear로그베타,156wks Bear Log Beta,
+202830,0,S,,156주로그베타(우선주),156wks Log Beta(Pref.),
+202840,0,S,,156주Bull로그베타(우선주),156wks Bull Log Beta(Pref.),
+202850,0,S,,156주Bear로그베타(우선주),156wks Bear Log Beta(Pref.),
+202900,0,S,,156주베타,156wks Beta,
+202910,0,S,,156주Bull베타,156wks Bull Beta,
+202920,0,S,,156주Bear베타,156wks Bear Beta,
+202930,0,S,,156주베타(우선주),156wks Beta(Pref.),
+202940,0,S,,156주Bull베타(우선주),156wks Bull Beta(Pref.),
+202950,0,S,,156주Bear베타(우선주),156wks Bear Beta(Pref.),
+203000,0,S,,156주알파,156wks Alpha,
+203010,0,S,,156주알파(우선주),156wks Alpha(Pref.),
+203020,0,S,,156주로그알파,156wks Log Alpha,
+203030,0,S,,156주로그알파(우선주),156wks Log Alpha(Pref.),
+203100,0,S,,주간수익률,Weekly Rtn.,비율
+203110,0,S,,주간수익률(우선주),Weekly Rtn.(Pref.),비율
+203120,0,S,,주간평균시가총액,Weekly Avg. Mkt. Cap.,원
+203130,0,S,,주간평균시가총액(우선주),Weekly Avg. Mkt. Cap.(Pref.),원
+203140,0,S,,주간평균시가총액(전체),Weekly Avg. Mkt. Cap.(All),원
+203150,0,S,,주간평균외국인시가총액,Weekly Avg. Mkt. Cap.(For.),원
+203160,0,S,,주간평균외국인시가총액(우선주),"Weekly Avg. Mkt. Cap.(For., Pref.)",원
+203170,0,S,,주간평균외국인시가총액(전체),"Weekly Avg. Mkt. Cap.(For., All)",원
+300100,0,S,,월간최고가,Monthly High Close,원/주
+300110,0,S,,월간시가,Monthly Open Price,원/주
+300120,0,S,,월간시가(우선주),Monthly Open Price(Pref.),원/주
+300130,0,S,,월간수정시가,Monthly Open Adj. Price,원/주
+300140,0,S,,월간수정시가(우선주),Monthly Open Adj. Price(Pref.),원/주
+300200,0,S,,월간최고가(우선주),Monthly High Close(Pref.),원/주
+300300,0,S,,월간최저가,Monthly Low Close,원/주
+300400,0,S,,월간최저가(우선주),Monthly Low Close(Pref.),원/주
+300700,0,S,,월간최고수정주가,Monthly High Adj. Price,원/주
+300705,0,S,,월간최고수정종가,Monthly High Adj. Price(based on closing),원/주
+300800,0,S,,월간최고수정주가(우선주),Monthly High Adj. Price(Pref.),원/주
+300805,0,S,,월간최고수정종가(우선주),"Monthly High Adj. Price(Pref., based on closing)",원/주
+300900,0,S,,월간최저수정주가,Monthly Low Adj. Price,원/주
+300905,0,S,,월간최저수정종가,Monthly Low Adj. Price(based on closing),원/주
+301000,0,S,,월간최저수정주가(우선주),Monthly Low Adj. Price,원/주
+301005,0,S,,월간최저수정종가(우선주),"Monthly Low Adj. Price(Pref., based on closing)",원/주
+301100,0,S,,월간평균수정주가,Monthly Avg. Adj. Price,원/주
+301200,0,S,,월간평균수정주가(우선주),Monthly Avg. Adj. Price,원/주
+301300,0,S,,월간평균거래량,Monthly Avg. Volume,주
+301400,0,S,,월간평균거래량(우선주),Monthly Avg. Volume(Pref.),주
+301500,0,S,,월간평균거래량(전체),Monthly Avg. Volume(All),주
+301510,0,S,,월간누계거래량,Monthly Avg. Sum Volume,주
+301520,0,S,,월간누계거래량(우선주),Monthly Avg. Sum Volume(Pref.),주
+301530,0,S,,월간누계거래량(전체),Monthly Avg. Sum Volume(All),주
+301540,0,S,,월간누계거래대금,Monthly Avg. Sum Turnover,원
+301550,0,S,,월간누계거래대금(우선주),Monthly Avg. Sum Turnover(Pref.),원
+301560,0,S,,월간누계거래대금(전체),Monthly Avg. Sum Turnover(All),원
+301600,0,S,,월간평균거래대금,Monthly Avg. Turnover,원
+301700,0,S,,월간평균거래대금(우선주),Monthly Avg. Turnover(Pref.),원
+301800,0,S,,월간평균거래대금(전체),Monthly Avg. Turnover(All),원
+301900,0,S,,60개월베타,60M Beta,
+301910,0,S,,60개월베타(우선주),60M Beta(Pref.),
+302000,0,S,,60개월알파,60M Alpha,
+302010,0,S,,60개월알파(우선주),60M Alpha(Pref.),
+302100,0,S,,60개월로그베타,60M Log Beta,
+302200,0,S,,60개월로그알파,60M Log Alpha,
+302300,0,S,,60개월로그베타(우선주),60M Log Beta(Pref.),
+302400,0,S,,60개월로그알파(우선주),60M Log Alpha(Pref.),
+302500,0,S,,60개월Bull베타,60M Bull Beta,
+302510,0,S,,60개월Bear베타,60M Bear Beta,
+302520,0,S,,60개월Bull베타(우선주),60M Bull Beta(Pref.),
+302530,0,S,,60개월Bear베타(우선주),60M Bear Beta(Pref.),
+302540,0,S,,60개월Bull로그베타,60M Bull Log Beta,
+302550,0,S,,60개월Bear로그베타,60M Bear Log Beta,
+302560,0,S,,60개월Bull로그베타(우선주),60M Bull Log Beta(Pref.),
+302570,0,S,,60개월Bear로그베타(우선주),60M Bear Log Beta(Pref.),
+302600,0,S,,월간수익률,Monthly Rtn.,비율
+302610,0,S,,월간수익률(우선주),Monthly Rtn.(Pref.),비율
+302620,0,S,,월간평균시가총액,Monthly Avg. Mkt. Cap.,원
+302630,0,S,,월간평균시가총액(우선주),Monthly Avg. Mkt. Cap.(Pref.),원
+302640,0,S,,월간평균시가총액(전체),Monthly Avg. Mkt. Cap.(All),원
+302650,0,S,,월간평균외국인시가총액,Monthly Avg. Mkt. Cap.(For.),원
+302660,0,S,,월간평균외국인시가총액(우선주),"Monthly Avg. Mkt. Cap.(For., Pref.)",원
+302670,0,S,,월간평균외국인시가총액(전체),"Monthly Avg. Mkt. Cap.(For., All)",원
+100100,0,I,,종가지수,Close,
+100110,0,I,,시가지수,Open,
+100120,0,I,,고가지수,High,
+100130,0,I,,저가지수,Low,
+100500,0,I,,수익률,Index Rtn.,비율
+100510,0,I,,1주전대비수익률,1wks Rtn.,비율
+100530,0,I,,연초대비수익률,YTD Rtn.,비율
+100550,0,I,,1개월전대비수익률,1M Rtn.,비율
+100570,0,I,,3개월전대비수익률,3M Rtn.,비율
+100590,0,I,,6개월전대비수익률,6M Rtn.,비율
+100600,0,I,,KRX거래량,KRX Volume,주
+100610,0,I,,KRX거래대금,KRX Turnover,백만원
+100620,0,I,,12개월전대비수익률,12M Rtn.,비율
+100630,0,I,,KRX상장주식수,KRX Listed Share,천주
+100900,0,I,,거래량,Volume,주
+101000,0,I,,거래량(우선주),Volume(Pref.),주
+101100,0,I,,거래량(전체),Volume(All),주
+101200,0,I,,거래대금,Turnover,원
+101300,0,I,,거래대금(우선주),Turnover(Pref.),원
+101400,0,I,,거래대금(전체),Turnover(All),원
+101500,0,I,,상장주식수,Listed Share,주
+101510,0,I,,지수산정주식수,Listed Shares To Be,주
+101550,0,I,,자기주식수,Treasury Stock,주
+101600,0,I,,상장주식수(우선주),Listed Share(Pref.),주
+101610,0,I,,지수산정주식수(우선주),Listed Shares To Be(Pref.),주
+101650,0,I,,자기주식수(우선주),Treasury Stock(Pref.),주
+101700,0,I,,상장주식수(전체),Listed Share(All),주
+101710,0,I,,지수산정주식수(전체),Listed Shares To Be(All),주
+101750,0,I,,자기주식수(전체),Treasury Stock(All),주
+101800,0,I,,외국인주식수,For. Shares,주
+101850,0,I,,외국인지분율,For. Shares Ratio,비율
+101900,0,I,,외국인주식수(우선주),For. Shares(Pref.),주
+101950,0,I,,외국인지분율(우선주),For. Shares Ratio(Pref.),비율
+102000,0,I,,외국인주식수(전체),For. Shares(All),주
+102050,0,I,,외국인지분율(전체),For. Shares Ratio(All),비율
+102055,0,I,,외국인시가총액,Mkt. Cap.(For.),백만원
+102056,0,I,,외국인시가총액(우선주),"Mkt. Cap.(For., Pref.)",백만원
+102057,0,I,,외국인시가총액(전체),"Mkt. Cap.(For., All)",백만원
+102060,0,I,,외국인지분율(시가총액),For. Shares Ratio(Mkt.),비율
+102070,0,I,,"외국인지분율(우선주, 시가총액)","For. Shares Ratio(Pref., Mkt.)",비율
+102080,0,I,,"외국인지분율(전체, 시가총액)","For. Shares Ratio(All, Mkt.)",비율
+102100,0,I,,시가총액,Mkt. Cap.,원
+102200,0,I,,시가총액(우선주),Mkt. Cap.(Pref.),원
+102300,0,I,,시가총액(전체),Mkt. Cap.(All),원
+102301,0,I,,지수산정시가총액,Mkt. Cap. for Index,백만원
+103900,0,I,,52주최고지수,52wks High Close,
+104100,0,I,,52주최저지수,52wks Low Close,
+104300,0,I,,52주평균지수,52wks Avg. Close,
+105500,0,I,,5일평균거래량,5days Avg. Volume,주
+105710,0,I,,5일평균거래대금,5days Avg. Turnover,백만원
+106000,0,I,,20일평균지수,20days Avg. Close,
+106200,0,I,,20일평균거래량,20days Avg. Volume,주
+106410,0,I,,20일평균거래대금,20days Avg. Turnover,백만원
+106500,0,I,,유통주식수,Free Float Shares,주
+106600,0,I,,유통시가총액,Free Float Mkt. Cap.,백만원
+106700,0,I,,60일평균지수,60days Avg. Close,
+106800,0,I,,유통시가총액(KRX유통비율적용),KRX Free Float Mkt. Cap.,백만원
+106850,0,I,,KRX시가총액,KRX Mkt. Cap.,백만원
+106900,0,I,,60일평균거래량,60days Avg. Volume,주
+107110,0,I,,60일평균거래대금,60days Avg. Turnover,백만원
+107400,0,I,,120일평균지수,120days Avg. Close,
+107600,0,I,,120일평균거래량,120days Avg. Volume,주
+107810,0,I,,120일평균거래대금,120days Avg. Turnover,백만원
+107900,0,I,,60일베타,60days Beta,
+108000,0,I,,60일알파,60days Alpha,
+108100,0,I,,60일로그베타,60days Log Beta,
+108200,0,I,,60일로그알파,60days Log Alpha,
+111000,0,I,,5일최고지수,5days High Close,
+111110,0,I,,5일최저지수,5days Low Close,
+111130,0,I,,5일평균지수,5days Avg. Close,
+111150,0,I,,20일최고지수,20days High Close,
+111170,0,I,,20일최저지수,20days Low Close,
+111190,0,I,,60일최고지수,60days High Close,
+111210,0,I,,60일최저지수,60days Low Close,
+111230,0,I,,120일최고지수,120days High Close,
+111250,0,I,,120일최저지수,120days Low Close,
+121000,0,I,,52주평균거래량,52wks Avg. Volume,주
+121120,0,I,,52주누계거래량,52wks Sum Volume,주
+121150,0,I,,52주평균거래대금,52wks Avg. Turnover,백만원
+121180,0,I,,52주누계거래대금,52wks Sum Turnover,백만원
+121210,0,I,,5일누계거래량,5days Sum Volume,주
+121240,0,I,,5일누계거래대금,5days Sum Turnover,백만원
+121270,0,I,,20일누계거래량,20days Sum Volume,주
+121300,0,I,,20일누계거래대금,20days Sum Turnover,백만원
+121330,0,I,,60일누계거래량,60days Sum Volume,주
+121360,0,I,,60일누계거래대금,60days Sum Turnover,백만원
+121390,0,I,,120일누계거래량,120days Sum Volume,주
+121420,0,I,,120일누계거래대금,120days Sum Turnover,백만원
+131000,0,I,,52주평균시가총액,52wks Avg. Mkt. Cap.,백만원
+131110,0,I,,52주평균지수산정시가총액,52wks Avg. Mkt. Cap. for Index,백만원
+131120,0,I,,52주평균외국인시가총액,52wks Avg. Mkt. Cap. for Index(For.),백만원
+131150,0,I,,5일평균시가총액,5days Avg. Mkt. Cap.,백만원
+131160,0,I,,5일평균지수산정시가총액,5days Avg. Mkt. Cap. for Index,백만원
+131180,0,I,,5일평균외국인시가총액,5days Avg. Mkt. Cap. for Index(For.),백만원
+131210,0,I,,20일평균시가총액,20days Avg. Mkt. Cap.,백만원
+131220,0,I,,20일평균지수산정시가총액,20days Sum Mkt. Cap. for Index,백만원
+131240,0,I,,20일평균외국인시가총액,20days Sum Mkt. Cap. for Index(For.),백만원
+131270,0,I,,60일평균시가총액,60days Avg. Mkt. Cap.,백만원
+131280,0,I,,60일평균지수산정시가총액,60days Avg. Mkt. Cap. for Index,백만원
+131300,0,I,,60일평균외국인시가총액,60days Avg. Mkt. Cap. for Index(For.),백만원
+131330,0,I,,120일평균시가총액,120days Avg. Mkt. Cap.,백만원
+131340,0,I,,120일평균지수산정시가총액,120days Avg. Mkt. Cap. for Index,백만원
+131360,0,I,,120일평균외국인시가총액,120days Avg. Mkt. Cap. for Index(For.),백만원
+200700,0,I,,주간고가지수,Weekly High Close,
+200710,0,I,,주간시가지수,Weekly Open Close,
+200900,0,I,,주간저가지수,Weekly Low Close,
+201100,0,I,,주간평균종가지수,Weekly Avg. Close,
+201300,0,I,,주간평균거래량,Weekly Avg. Volume,주
+201510,0,I,,주간누계거래량,Weekly Sum Volume,주
+201600,0,I,,주간평균거래대금,Weekly Avg. Turnover,백만원
+201810,0,I,,주간누계거래대금,Weekly Sum Turnover,백만원
+201900,0,I,,52주베타,52wks Beta,
+201920,0,I,,52주Bull베타,52wks Bull Beta,
+201930,0,I,,52주Bear베타,52wks Bear Beta,
+202000,0,I,,52주알파,52wks Alpha,
+202100,0,I,,52주로그베타,52wks Log Beta,
+202110,0,I,,52주Bull로그베타,52wks Bull Log Beta,
+202120,0,I,,52주Bear로그베타,52wks Bear Log Beta,
+202200,0,I,,52주로그알파,52wks Log Alpha,
+202500,0,I,,104주로그베타,104wks Log Beta,
+202510,0,I,,104주Bull로그베타,104wks Bull Log Beta,
+202520,0,I,,104주Bear로그베타,104wks Bear Log Beta,
+202600,0,I,,104주베타,104wks Beta,
+202610,0,I,,104주Bull베타,104wks Bull Beta,
+202620,0,I,,104주Bear베타,104wks Bear Beta,
+202700,0,I,,104주알파,104wks Alpha,
+202710,0,I,,104주로그알파,104wks Log Alpha,
+202800,0,I,,156주로그베타,156wks Log Beta,
+202810,0,I,,156주Bull로그베타,156wks Bull Log Beta,
+202820,0,I,,156주Bear로그베타,156wks Bear Log Beta,
+202900,0,I,,156주베타,156wks Beta,
+202910,0,I,,156주Bull베타,156wks Bull Beta,
+202920,0,I,,156주Bear베타,156wks Bear Beta,
+203000,0,I,,156주알파,156wks Alpha,
+203020,0,I,,156주로그알파,156wks Log Alpha,
+203100,0,I,,주간수익률,Weekly Rtn.,비율
+203120,0,I,,주간평균시가총액,Weekly Avg. Mkt. Cap.,백만원
+203150,0,I,,주간평균외국인시가총액,Weekly Avg. Mkt. Cap.(For.),백만원
+300130,0,I,,월간시가지수,Monthly Open Close,
+300700,0,I,,월간고가지수,Monthly High Close,
+300900,0,I,,월간저가지수,Monthly Low Close,
+301100,0,I,,월간평균종가지수,Monthly Avg. Close,
+301300,0,I,,월간평균거래량,Monthly Avg. Volume,주
+301510,0,I,,월간누계거래량,Monthly Sum Volume,주
+301540,0,I,,월간누계거래대금,Monthly Sum Turnover,백만원
+301600,0,I,,월간평균거래대금,Monthly Avg. Turnover,백만원
+301900,0,I,,60개월베타,60M Beta,
+302000,0,I,,60개월알파,60M Alpha,
+302100,0,I,,60개월로그베타,60M Log Beta,
+302200,0,I,,60개월로그알파,60M Log Alpha,
+302500,0,I,,60개월Bull베타,60M Bull Beta,
+302510,0,I,,60개월Bear베타,60M Bear Beta,
+302540,0,I,,60개월Bull로그베타,60M Bull Log Beta,
+302550,0,I,,60개월Bear로그베타,60M Bear Log Beta,
+302600,0,I,,월간수익률,Monthly Rtn.,비율
+302620,0,I,,월간평균시가총액,Monthly Avg. Mkt. Cap.,백만원
+302650,0,I,,월간평균외국인시가총액,Monthly Avg. Mkt. Cap.(For.),백만원

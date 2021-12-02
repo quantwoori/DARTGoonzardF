@@ -1,0 +1,111 @@
+계정코드,재무업종,코드타입,재무제표종류,한글명,영문명,단위
+111000,0,E,,자산총계,Total Assets,천원
+111100,0,E,,유동자산,Current Assets,천원
+111300,0,E,,현금성자산,Cashable assets,천원
+111400,0,E,,매출채권,Accounts Receivable,천원
+111600,0,E,,비유동자산,Non-current Assets,천원
+111900,0,E,,무형자산,Intangible Assets,천원
+113000,0,E,,부채총계,Total Liabilities,천원
+113100,0,E,,유동부채,Current Liabilities,천원
+113200,0,E,,매입채무,Accounts Payable,천원
+113250,0,E,,유동성장기부채,Current Portion of Lt. Debt,천원
+113450,0,E,,기타유동부채,Other Current Liabilities,천원
+113500,0,E,,비유동부채,Non-current Liabilities,천원
+113600,0,E,,사채,Bonds,천원
+113650,0,E,,기타비유동부채,Other Lt. Liabilities,천원
+113700,0,E,,장기차입금,Lt. Debt,천원
+113750,0,E,,단기차입금,St. Debt,천원
+113770,0,E,,차입금,Debt,천원
+113900,0,E,,순부채,Net Debt,천원
+115000,0,E,,자본총계,Total Stockholders' Equity,천원
+115020,0,E,,자본총계(지배),Total Stockholders' Equity(Owners),천원
+115100,0,E,,자본금,Paid-in Capital,천원
+121000,0,E,,매출액,Net Sales,천원
+121050,0,E,,총매출액(유통업),Gross Sales,천원
+121450,0,E,,영업이익(K-GAAP),Operating Profit(K-GAAP),천원
+121500,0,E,,영업이익,Operating Profit,천원
+121700,0,E,,이자손익,Interest Gains(Losses),천원
+121800,0,E,,이자수익,Interest Income,천원
+121900,0,E,,이자비용,Interest Expenses,천원
+122100,0,E,,감가상각비,Depreciation,천원
+122500,0,E,,세전계속사업이익,Pre-tax Profit from Continuing Operations,천원
+122700,0,E,,당기순이익,Net Profit,천원
+122710,0,E,,당기순이익(지배),Net Profit(Owners),천원
+122740,0,E,,총포괄이익,Total Comprehensive Income,천원
+123000,0,E,,EBITDA,EBITDA,천원
+124000,0,E,,EBIT,EBIT,천원
+124010,0,E,,EBIT(Reported),EBIT(Reported),천원
+124200,0,E,,FCF,FCF,천원
+124210,0,E,,FreeCashFlow/Mkt. Cap.,FCF/Mkt. Cap.,배
+131000,0,E,,영업활동현금흐름,Operating Cash Flows,천원
+132000,0,E,,투자활동현금흐름,Investing Cash Flows,천원
+133000,0,E,,재무활동현금흐름,Financing Cash Flows,천원
+135000,0,E,,CAPEX,CAPEX,천원
+135010,0,E,,CAPEX/Asset,CAEPX/Assets,비율
+135020,0,E,,CAPEX Growth비중,CAPEX Growth Proportion,비율
+135030,0,E,,(CAPEX-DEP)/Asset,(CAPEX-DEP)/Assets,비율
+138000,0,E,,순자산(Book Value),Net Assets(Book Value),천원
+211000,0,E,,영업이익률,Operating Profit/Sales,비율
+211010,0,E,,영업이익률(K-GAAP),Operating Profit/Sales(K-GAAP),비율
+211200,0,E,,순이익률,Net Profit/Sales,비율
+211500,0,E,,ROE(지배),ROE(Owners),비율
+211550,0,E,,ROE,ROE,비율
+211600,0,E,,ROA,ROA,비율
+211700,0,E,,ROIC,ROIC,비율
+213200,0,E,,현금흐름,Cash Flows,천원
+222000,0,E,,차입금비율,Debt/Equity,비율
+222100,0,E,,순차입금비율(순부채비율),Net Debt/Equity,비율
+231000,0,E,,매출액증가율(YoY),Sales Growth(YoY),비율
+231100,0,E,,매출액증가율(QoQ),Sales Growth(QoQ),비율
+231400,0,E,,영업이익증가율(YoY),Operating Profit Growth(YoY),비율
+231500,0,E,,영업이익증가율(QoQ),Operating Profit Growth(QoQ),비율
+231600,0,E,,세전계속사업이익증가율(YoY),Pre-tax Profit from Continuing Operations Growth(YoY),비율
+231700,0,E,,세전계속사업이익증가율(QoQ),Pre-tax Profit from Continuing Operations Growth(QoQ),비율
+231800,0,E,,순이익증가율(YoY),Net Profit Growth(YoY),비율
+231850,0,E,,순이익증가율(YoY)(지배),Net Profit Growth(YoY)(Owners),비율
+231900,0,E,,순이익증가율(QoQ),Net Profit Growth(QoQ),비율
+231950,0,E,,순이익증가율(QoQ)(지배),Net Profit Growth(QoQ)(Owners),비율
+232000,0,E,,"EPS증가율(YoY, 지배)","EPS Growth(YoY, Owners)",비율
+232100,0,E,,"EPS증가율(QoQ, 지배)","EPS Growth(QoQ, Owners)",비율
+232200,0,E,,SPS증가율(YoY),SPS Growth(YoY),비율
+232300,0,E,,SPS증가율(QoQ),SPS Growth(QoQ),비율
+312000,0,E,,EPS(지배),EPS(Owners),원/주
+312020,0,E,,EPS,EPS,원/주
+314000,0,E,,BPS(지배),BPS(Owners),원/주
+314010,0,E,,BPS,BPS,원/주
+316000,0,E,,CPS,CPS,원/주
+318000,0,E,,SPS,SPS,원/주
+320000,0,E,,EBITDAPS,EBITDAPS,원/주
+331000,0,E,,EV/EBITDA,EV/EBITDA,배
+332000,0,E,,EV/Sales,EV/Sales,배
+334000,0,E,,Net Debt/Share,Net Debt/Share,원/주
+335000,0,E,,EV/EBIT,EV/EBIT,배
+382100,0,E,,P/E(지배),P/E(Owners),배
+382500,0,E,,P/B(지배),P/B(Owners),배
+382900,0,E,,P/C,P/C,배
+383300,0,E,,P/S,P/S,배
+423800,0,E,,수정DPS(보통주),"DPS(Comm., Adj.)",원/주
+432400,0,E,,배당수익률,Dividend Yield,%
+442400,0,E,,현금배당액(전체),Cash Dividend(All),천원
+502900,0,E,,Payout Ratio,Payout Ratio,비율
+610100,0,E,,투자의견,Rating,
+610300,0,E,,목표주가,TP,원/주
+610500,0,E,,투자의견참여증권사,#BR in Rating,
+610550,0,E,,EPS참여증권사,#BR of EPS,
+612500,0,E,,목표주가(Adj.),TP(Adj.),원/주
+700100,0,E,,(Only GAAP)당기순이익,(Only GAAP)Net Profit,천원
+700200,0,E,,(Only GAAP)자본총계,(Only GAAP)Total Stockholders' Equity,천원
+700300,0,E,,(Only GAAP)매출액,(Only GAAP)Sales,천원
+700400,0,E,,(Only GAAP)세전계속사업이익,(Only GAAP)Pre-tax Profit from Continuing Operations,천원
+700500,0,E,,(Only GAAP)EPS,(Only GAAP)EPS,원/주
+700600,0,E,,(Only GAAP)BPS,(Only GAAP)BPS,원/주
+700700,0,E,,(Only GAAP)SPS,(Only GAAP)SPS,원/주
+700800,0,E,,(Only IFRS)당기순이익,(Only IFRS)Net Profit,천원
+700900,0,E,,(Only IFRS)자본총계,(Only IFRS)Total Stockholders' Equity,천원
+701000,0,E,,(Only IFRS)매출액,(Only IFRS)Sales,천원
+701100,0,E,,(Only IFRS)세전계속사업이익,(Only IFRS)Pre-tax Profit from Continuing Operations,천원
+701200,0,E,,(Only IFRS)EPS,(Only IFRS)EPS,원/주
+701300,0,E,,(Only IFRS)BPS,(Only IFRS)BPS,원/주
+701400,0,E,,(Only IFRS)SPS,(Only IFRS)SPS,원/주
+701500,0,E,,(Only GAAP)Std Dev Consensus EPS,(Only GAAP)Std Dev Consensus EPS,
+701600,0,E,,(Only IFRS)Std Dev Consensus EPS,(Only IFRS)Std Dev Consensus EPS,
