@@ -1,7 +1,7 @@
 import json
 
 
-def get_token(target:str) -> str:
+def get_token(target:str, typ:str) -> str:
     """
     Keys are saved in separate json file
         for extra security.
@@ -13,10 +13,11 @@ def get_token(target:str) -> str:
         dat = json.load(file)
     file.close()
 
-    return dat['apikey'][target]
+    return dat[typ][target]
 
 
 if __name__ == '__main__':
     # Test
-    print(get_token('dart'))
-    print(len(get_token('dart')))
+    print(get_token('dart', 'apikey'))
+    print(get_token('id', 'sql'))
+
